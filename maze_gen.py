@@ -24,7 +24,7 @@ def gen_maze():
     while row < height-1:
         row += 1
         if row > 0 and row != height-1:
-            paths = random.randint(1,int(width/2))
+            paths = random.randint(1,width)
         else:
             paths = 1
         follows_path = False
